@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to connect with me.</p>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+
+            <label for="name">Full Name:</label>
+            <input type ="text" id ="name" name=""name placeholder="Enter Your Full Name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id = "email" name = "email" placeholder="Enter Your Email" required>
+            <br><br>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="internship">Internship</option>
+                <option value="project">Project Collaboration</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <p>Preferred Contact:</p>
+            <input type="radio" id="email-contact" name="contact" value="email">
+            <label for="email-contact">Email</label>
+
+            <input type="radio" id="phone-contact" name="contact" value="phone">
+            <label for="phone-contact">Phone</label>
+
+            <br><br>
+
+            <input type="checkbox" id="updates" name="updates" value="yes">
+            <label for="updates">I want project updates</label>
+
+            <br><br>
+
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="30" ></textarea>
+            <br><br>
+
+            <button type="submti">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <br>
+        <p>Created by Aaditya Patil</p>
+        <p>&copy; 2026 Aaditya Patil</p>
+        <a href="index.html">Back To Home</a>
+    </footer>
+</body>
+</html>
